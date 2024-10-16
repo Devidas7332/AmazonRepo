@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite-Amazon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test-Amazon(failed)">
+    <classes>
+      <class name="Amazon.AmazonTestNGClass">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="LoginToAppplication"/>
+          <include name="verifyAddToCart2"/>
+          <include name="closed"/>
+          <include name="logOutFromApplication"/>
+        </methods>
+      </class> <!-- Amazon.AmazonTestNGClass -->
+      <class name="Amazon.VerifyOrderPage">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="Closed"/>
+          <include name="VerifyRetunAndOrders"/>
+          <include name="LoginToApplication"/>
+          <include name="LogoutFromApplication"/>
+        </methods>
+      </class> <!-- Amazon.VerifyOrderPage -->
+      <class name="Amazon.verifyLoginPage">
+        <methods>
+          <include name="LoginIntoApplication"/>
+          <include name="LaunchBrowser"/>
+          <include name="verifysignIn"/>
+        </methods>
+      </class> <!-- Amazon.verifyLoginPage -->
+    </classes>
+  </test> <!-- Test-Amazon(failed) -->
+</suite> <!-- Failed suite [Suite-Amazon] -->

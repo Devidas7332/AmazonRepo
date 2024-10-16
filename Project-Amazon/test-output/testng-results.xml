@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-16T16:14:52 IST" name="Default suite" finished-at="2024-10-16T16:14:52 IST" duration-ms="71">
+    <groups>
+    </groups>
+    <test started-at="2024-10-16T16:14:52 IST" name="Default test" finished-at="2024-10-16T16:14:52 IST" duration-ms="71">
+      <class name="Amazon.AmazonTestNGClass">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="LaunchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492379" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method LaunchBrowser but has not been marked @Optional or defined
+in C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-2137727148\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method LaunchBrowser but has not been marked @Optional or defined
+in C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-2137727148\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="initializePOM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492406" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="LoginToAppplication()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="LoginToAppplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492418" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToAppplication -->
+        <test-method signature="VerifyTittle()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="VerifyTittle" finished-at="2024-10-16T16:14:52 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method LaunchBrowser but has not been marked @Optional or defined
+in C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-2137727148\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method LaunchBrowser but has not been marked @Optional or defined
+in C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-2137727148\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTittle -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492428" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="LoginToAppplication()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="LoginToAppplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492430" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToAppplication -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="verifyAddToCart" finished-at="2024-10-16T16:14:52 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method LaunchBrowser but has not been marked @Optional or defined
+in C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-2137727148\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method LaunchBrowser but has not been marked @Optional or defined
+in C:\Users\Abhishek\AppData\Local\Temp\testng-eclipse-2137727148\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492437" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method is-config="true" signature="RemovePOM()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="RemovePOM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492438" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemovePOM -->
+        <test-method is-config="true" signature="closed()[pri:0, instance:Amazon.AmazonTestNGClass@7b98f307]" started-at="2024-10-16T16:14:52 IST" name="closed" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1729075492442" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closed -->
+      </class> <!-- Amazon.AmazonTestNGClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
